@@ -3,8 +3,8 @@ import style from './month.module.css'
 
 export const Month = () => {
   return (
-    <div>
-        <ul>
+    <div className={style.container}>
+        <ul className={style.list}>
             <li>Январь</li>
             <li>Февраль</li>
             <li>Март</li>
