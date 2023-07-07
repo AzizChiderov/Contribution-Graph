@@ -1,0 +1,75 @@
+.main {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;  
+  background: #fff;
+  margin: 100px auto;
+}
+
+.container {
+  position: relative;
+  width: 15px;
+  height: 15px;
+  padding: 8px;
+  margin: 3px;
+}
+
+.container:hover {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.modalWindow {
+  position: absolute;
+  top: -120px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.modalWrapper {
+  width: 245px;
+  height: 82px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  background: #000;
+  text-align: center;
+  color: white;
+}
+
+.colors {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.dates {
+  color: #7c7c7c;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.box {
+  position: absolute;
+  top: 280px;
+  display: flex;
+  color: #959494;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.box div {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
